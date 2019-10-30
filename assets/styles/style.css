@@ -6,6 +6,7 @@
 @import "utils/icons.css";
 @import "utils/imgs.css";
 @import "utils/fonts.css";
+@import "utils/dropdown.css";
 @import "utils/progress.css";
 @import "elements/nav.css";
 @import "elements/general.css";
@@ -13,8 +14,14 @@
 html {
     font-family: 'Helvetica Neue';
     /*font-size: var(--html-font-size)px;*/
-    font-size: 18px;
+    font-size: 12px;
     color: var(--primary-font-color);
+}
+
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 18px;
+    }
 }
 
 /*General*/
@@ -242,4 +249,41 @@ html {
 
 .menu-editor div:nth-child(2) .icon-star {
     margin: 0 3px;
+}
+.list-cmt {
+    margin-top: 30px;
+}
+
+.cmt {
+    margin-top: 28px;
+}
+
+.cmt .filter-cmt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmt-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmt-wrapper .avatar {
+    margin-right: 11px;
+}
+
+.cmt-wrapper .author-info {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.cmt-wrapper .content-cmt {
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.cmt-wrapper .footer-cmt {
+    margin-top: 25px;
 }

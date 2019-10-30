@@ -14,11 +14,19 @@
     font-size: 1.23rem;
     height: 50px;
 }
+
 .btn-rating, .btn-post {
-    width: 240px;
-    height: 65px;
     border: 3px solid #00000005;
     margin: 0 10px;
+    width: 150px;
+    height: 65px;
+}
+
+@media only screen and (min-width: 600px) {
+    .btn-rating, .btn-post {
+        width: 240px;
+        height: 65px;
+    }
 }
 
 .btn-rating .text-description,

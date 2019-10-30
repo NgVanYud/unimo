@@ -18,16 +18,20 @@
   <header class="header-main">
     <div class="container">
       <div class="nav-bar d-flex justify-content-between">
-        <div class="">
+        <button class="bg-transparent border-0">
           <i class="fas fa-bars fa-2x icon-primary"></i>
-        </div>
+        </button>
 
         <div>
-          <h1 class="title-main text-center">Unimo Company</h1>
+          <h1 class="title-main text-center">
+            <a href="#" class="text-no-underline text-white">
+              Unimo Company
+            </a> 
+          </h1>
         </div>
 
-        <div class="icon-primary">
-          <i class="fas fa-search fa-2x"></i>
+        <button class="bg-transparent border-0">
+          <i class="fas fa-search fa-2x icon-primary"></i>
         </div>
       </div>
     </div>
@@ -161,10 +165,10 @@
   <section class="container-fluid desc">
     <div>
       <div class="img-desc">
-        <img src="./assets/imgs/desc-first.png" alt="">
-        <img src="./assets/imgs/desc-second.png" alt="">
-        <img src="./assets/imgs/desc-third.png" alt="">
-        <img src="./assets/imgs/desc-four.png" alt="">
+        <img class="w-25" src="./assets/imgs/desc-first.png" alt="">
+        <img class="w-25" src="./assets/imgs/desc-second.png" alt="">
+        <img class="w-25" src="./assets/imgs/desc-third.png" alt="">
+        <img class="w-25" src="./assets/imgs/desc-four.png" alt="">
       </div>
     </div>
     <div class="content container" id="desc-content">
@@ -255,13 +259,13 @@
   </section>
   <div class="review">
     <div class="tab container-fluid">
-      <button class="tablinks w-50 text-center border-0 bg-light active" onclick="openContent(event, 'London')">Reviews</button>
-      <button class="tablinks w-50 text-center border-0 bg-light" onclick="openContent(event, 'Paris')">Posts</button>
+      <button class="tablinks w-50 text-center border-0 bg-light active" onclick="openContent(event, 'review')">Reviews</button>
+      <button class="tablinks w-50 text-center border-0 bg-light" onclick="openContent(event, 'post')">Posts</button>
     </div>
   </div>
   <div class="container">
     <div class="review-content">
-      <div id="London" class="tabcontent rate">
+      <div id="review" class="tabcontent rate">
         <div class="rate-detail">
           <div class="counter w-50 text-center">
             <div class="score">
@@ -347,20 +351,60 @@
         </div>
         <div class="cmt">
           <div class="filter-cmt">
-            <div>
-              Sắp xếp theo tốt nhất
+            <div class="dropdown" style="float:left;">
+              <button class="dropbtn text-secondary bg-transparent">Sắp xếp theo tốt nhất
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" style="left:0;">
+              <a href="#" class="text-secondary">1 Sao</a>
+              <a href="#">2 Sao</a>
+              <a href="#">3 Sao</a>
+              <a href="#">4 Sao</a>
+              <a href="#">5 Sao</a>
+              </div>
+            </div>
+            <div class="dropdown" style="float:left;">
+              <button class="dropbtn text-secondary bg-transparent">Tiếng Việt (126)
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" style="left:0;">
+              <a href="#" class="text-secondary">Tiếng Anh (150)</a>
+              </div>
+            </div>
+        </div>
+        <div class="list-cmt">
+          <div class="cmt-wrapper">
+            <div class="avatar">
+              <img src="./assets/imgs/user-avatar.png" alt="">
             </div>
             <div>
-              Tiếng Việt
+              <div class="author-info">
+                <div>
+                  <a href="#" class="text-no-underline text-secondary w-bold d-block" style="margin-bottom: 10px;">User's name</a>
+                  <span class="text-gray">2019-12-21</span>
+                </div>
+                <div>
+                  <a href="#" class="text-no-underline d-block text-gray">Report</a>
+                </div>
+              </div>
+              <div class="content-cmt text-gray">
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+              </div>
+              <div class="footer-cmt text-gray">
+                <a href="#" class="text-gray text-no-underline text-no-underline">Trang web</a> |
+                <button class="text-gray border-0 bg-transparent">Trả lời</button> |
+                <button class="text-gray border-0 bg-transparent">Thích</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div id="Paris" class="tabcontent">
-        <h3>Post</h3>
-        <p>Paris is the capital of France.</p>
-      </div>
+    </div>
+    <div id="post" class="tabcontent">
+      <h3>Post</h3>
+      <p>This is the content of posts.</p>
     </div>
   </div>
 </div>
