@@ -1,0 +1,245 @@
+@import "utils/reset.css";
+@import "utils/variables.css";
+@import "utils/grids.css";
+@import "utils/buttons.css";
+@import "utils/flex.css";
+@import "utils/icons.css";
+@import "utils/imgs.css";
+@import "utils/fonts.css";
+@import "utils/progress.css";
+@import "elements/nav.css";
+@import "elements/general.css";
+
+html {
+    font-family: 'Helvetica Neue';
+    /*font-size: var(--html-font-size)px;*/
+    font-size: 18px;
+    color: var(--primary-font-color);
+}
+
+/*General*/
+.general {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 12px 0;
+    margin-bottom: 20px;
+}
+.general .logo-wrapper {
+}
+
+.general .title-app {
+    margin-top: 15px;
+}
+
+.general .title-app .app-name {
+    font-size: 1.5rem;
+}
+
+.general .title-app .sub-title {
+    font-size: 1rem;
+    margin-top: 23px;
+    letter-spacing: -0.6px;
+}
+
+.general .title-app .company-name {
+    font-size: 1.23rem;
+    margin-top: 20px;
+}
+
+.general .title-app .sub-title .icon-info {
+    width: 15px;
+    height: 15px;
+}
+
+.general .title-app .sub-title .icon-info {
+    width: 15px;
+    height: 15px;
+}
+
+.trust .icon-trust {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.general .sub-title {
+
+}
+
+/*rating*/
+.rating {
+    margin: 22px 0;
+}
+
+/*social*/
+.social {
+    margin-top: 20px;
+}
+.social .icon {
+    margin: 0 4px;
+}
+
+.social .icon-social-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+/*ads*/
+.ads,
+.ads-left
+{
+    display: flex;
+}
+
+.ads {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+
+.ads .logo {
+    margin-right: 12px;
+}
+
+.ads .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ads .title {
+    font-size: 1.23rem;
+}
+
+.ads .description {
+
+}
+
+/*description*/
+.desc {
+    margin-top: 17px;
+}
+
+.desc .img-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc .content{
+    margin: 20px 0;
+    font-size: 1.23rem;
+    max-height: 565px;
+    overflow: hidden;
+    /*box-shadow: 0px 9px 6px 1px #888;*/
+}
+
+.desc .content .title {
+}
+
+/*info*/
+.additional-info {
+
+}
+
+.additional-info .content {
+    margin-top: 18px;
+    margin-bottom: 17px;
+}
+
+.additional-info .content .title{
+    margin-bottom: 15px;
+}
+
+.additional-info .title {
+    font-size: 1.23rem;
+}
+
+.additional-info .detail {
+    margin-top: 20px;
+}
+
+.additional-info .detail .title {
+    font-size: 1rem;
+}
+
+.additional-info .detail .list-item li{
+    line-height: 32px;
+}
+
+/*review*/
+.review {
+    border-top: 0.7px solid #b9b4b436;
+    border-bottom: 0.7px solid #b9b4b436;
+    margin: 25px 0;
+}
+.review .tab{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review .tab .tablinks {
+    font-size: 1.23rem;
+    padding: 5px 0;
+    height: 50px;
+}
+
+.review .tab button.active {
+    border-bottom: 5px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.review-content .rate-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.review-content .rate-detail .score {
+    font-size: 4rem;
+    margin-bottom: 27px;
+}
+
+.review-content .counter .total {
+    line-height: 25px;
+}
+
+.review-content .rate-detail .star {
+    margin-top: 21px;
+    padding: 0 30px;
+}
+
+.review-content .rate-detail .star .counter-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.review-content .tabcontent {
+    margin-bottom: 26px;
+}
+
+.review-content .tabcontent:nth-child(2) {
+    display: none;
+}
+.menu-editor {
+    display: flex;
+    justify-content: space-between;
+    background: #f2f5fa;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 17px;
+}
+
+.menu-editor div {
+    display: flex;
+    align-items: center;
+}
+
+.menu-editor div:nth-child(2) .icon-star {
+    margin: 0 3px;
+}

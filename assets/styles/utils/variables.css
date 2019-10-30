@@ -1,0 +1,13 @@
+:root {
+    --white-color: #fff;
+    --gray-color: #00000069;
+    --light-gray-color: #e8e8e8;
+    --primary-color: #1f92fd;
+    --secondary-color: #42befe;
+    --info-color: #33d181;
+
+    --primary-font-color: #555555;
+
+    --navbar-height: 75px;
+    --html-font-size: 18;
+}

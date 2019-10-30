@@ -1,0 +1,95 @@
+.icon {
+    color: var(--white-color);
+}
+
+.icon-primary {
+    color: var(--white-color);
+}
+
+.icon-2x {
+    font-size: 2em;
+}
+
+.icon-info {
+    color: var(--info-color);
+}
+
+.rated {
+    color: #ffb23c;
+}
+
+.unrated {
+    color: #e8e8e8;
+}
+
+.icon-trust {
+    background-color: #32ca86;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.icon-trust .icon-name {
+    font-size: 0.89rem;
+    margin-top: 6px;
+}
+
+.icon-large {
+    width: 57px;
+}
+
+.icon-facebook {
+    color: #35579f
+}
+
+.icon-twitter {
+    color: #00b7f3;
+}
+
+.icon-reddit {
+    color: #dd3400;
+}
+
+.icon-vk {
+    color: #5181b8;
+}
+
+.icon-plus {
+    color: #42befe;
+}
+
+.icon-whatapp {
+    color: #1bd741;
+}
+
+.icon-social-more {
+    position: relative;
+    background-color: #e8e8e8;
+    color: var(--primary-font-color);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.icon-social-more .arrow:before
+{
+    content: '';
+    position: absolute;
+    border-width: 7px 8px 7px 0;
+    border-color: transparent #e8e8e8 transparent transparent;
+    border-style: solid;
+    width: 0;
+    bottom: 39%;
+    left: -7px;
+    height: 0;
+}
+
+.icon-sync {
+    font-size: 12px;
+    width: 18px;
+}
+
+.icon-star {
+    font-size: 0.9rem;
+    letter-spacing: -5px;
+}

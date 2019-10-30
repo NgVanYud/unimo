@@ -1,0 +1,10 @@
+.progress {
+	background: #ad5389;
+	background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);
+	background: linear-gradient(to bottom, #3c1053, #ad5389);
+	/* border-radius: 3px; */
+	height: 16px;
+	width: 0;
+    transition: width 0.5s ease-in;
+    margin: 4px 14px;
+}

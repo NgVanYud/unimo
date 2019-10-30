@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../../fonts/Helvetica/HelveticaNeue.otf");
+
+}
+
+.w-bold {
+    font-weight: 700;
+}
+
+.w-regular {
+    font-weight: 400;
+}
+
+.w-light {
+    font-weight: 300;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-no-underline {
+    text-decoration: none;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-white {
+    color: var(--white-color);
+}
+
+.text-gray {
+    color: var(--gray-color);
+}
+
+.text-light-gray {
+    color: var(--light-gray-color);
+}

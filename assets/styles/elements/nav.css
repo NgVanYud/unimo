@@ -1,0 +1,20 @@
+.nav-bar {
+    height: var(--navbar-height);
+}
+
+.header-main {
+    background: -moz-linear-gradient(top, #41bafd 20%, #3ba2f7, 40%, var(--primary-color) 80%);
+    background: -o-linear-gradient(top, #41bafd 20%, #3ba2f7 40%, var(--primary-color) 80%);
+    background: -ms-linear-gradient(top, #41bafd 20%, #3ba2f7 40%, var(--primary-color) 80%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0.2, #41bafd),color-stop(0.4, #3ba2f7),color-stop(0.8, var(--primary-color)));
+}
+
+.nav-bar div {
+    line-height: var(--navbar-height);
+}
+
+.title-main {
+    color: var(--white-color);
+    font-size: calc(40rem/(var(--html-font-size)));
+}
+
