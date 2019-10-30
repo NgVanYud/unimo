@@ -24,9 +24,16 @@
 
 .icon-trust {
     background-color: #32ca86;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .icon-trust {
+        width: 90px;
+        height: 90px;
+    }
 }
 
 .icon-trust .icon-name {
