@@ -36,6 +36,10 @@
     color: var(--white-color);
 }
 
+.text-dark {
+    color: var(--);
+}
+
 .text-gray {
     color: var(--gray-color);
 }

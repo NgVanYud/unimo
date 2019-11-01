@@ -13,6 +13,12 @@
 .btn-download {
     font-size: 1.23rem;
     height: 50px;
+    line-height: 50px;
+}
+
+.btn-download:hover {
+    color: var(--info-color);
+    background: var(--info-color);
 }
 
 .btn-rating, .btn-post {
